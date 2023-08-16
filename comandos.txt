@@ -1,0 +1,50 @@
+  418  git clone https://github.com/Kukan-29/Checkpoint-santiagoAgarie.git
+  419  clear
+  420  cd Desktop
+  421  ls
+  422  cd ..
+  423  ls
+  424  cd Checkpoint-santiagoAgarie
+  425  git init
+  426  clear
+  427  touch main.js index.html
+  428  ls
+  429  git add .
+  430  git status
+  431  git commit -m "01 SantiagoAgarie creacion de index.html y main.js"
+  432  git push
+  433  git branch feature
+  434  git cheackout feature
+  435  git checkout feature
+  436  mkdir Hardware Software SeguridadInformatica
+  437  ls
+  438  git branch
+  439  git status
+  440  touch Hardware/resumen.txt Software/resumen.txt
+  441  ls Hardware
+  442  ls Software
+  443  touch SeguridadInformatica/resumen.txt
+  444  git push
+  445  git add .
+  446  git status
+  447  git commit -m "02 SantiagoAgarie creamos las carpetas Hardware Software y SeguridadInformatica con el archivo resumen.txt dentro de cada una"
+  448  git status
+  449  git push
+  450  git push --set-upstream origin feature
+  451  git checkout main
+  452  mv main.js resumenHarware.txt
+  453  ls
+  454  mv resumenHarware.txt resumenHardware
+  455  ls
+  456  mv index.html resumenSoftware.txt
+  457  ls
+  458  nano resumenSoftware.txt
+  459  mv resumenHardware resumenHardware.txt
+  460  nano resumenHardware.txt
+  461  git add .
+  462  git status
+  463  git commit -m "04 SantiagoAgarie cambiamos los nombres de index.html y main.js por resumenHardware.txt y resumenSofteware.txt y escribimos ejemplos de Softwares y memorias principales"
+  464  git push
+  465  git checkout feature
+  466  git checkout main
+  467  touch comandos.txt
